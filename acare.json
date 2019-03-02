@@ -1,0 +1,62 @@
+{
+	"firstName": "Leslie",
+	"middleName": "string",
+	"lastName": "Corrrea",
+	"mrn": "string",
+	"primaryMobileNumber": "+918971896975",
+	"addModel": {
+		"addressLine1": "#101 House1",
+		"addressLine2": "UK street",
+		"city": "Bangalore",
+		"state": "Ka",
+		"country": "US",
+		"poBoxNumber": "570002",
+		"zipcode": "string"
+	},
+	"PCPName": "Dr Kim",
+	"PCPPhone": "+918971896978",
+	"Conditions": [{
+		"Name": "Health",
+		"onsetDate": "2019-03-01T12:12:30.207Z",
+		"severity": "string"
+	},
+	{
+		"Name": "Health2",
+		"onsetDate": "2019-03-01T12:12:30.207Z",
+		"severity": "string"
+	}],
+	"Procedures": [{
+		"name": "Operation",
+		"description": "Operation",
+		"performedDate": "2019-03-01T12:12:30.899Z",
+		"performedBy": "string"
+	}],
+	"Medication": [{
+		"medicationName": "Aspirin",
+		"dosageQuantity": "1g",
+		"medicationTime": "string",
+		"daySplitType": "Morning"
+	},
+	{
+		"medicationName": "Aspirin2",
+		"dosageQuantity": "2g",
+		"medicationTime": "string",
+		"daySplitType": "noon"
+	},
+	{
+		"medicationName": "Aspirin3",
+		"dosageQuantity": "3g",
+		"medicationTime": "string",
+		"daySplitType": "evening"
+	}],
+
+	"BloodPressure": {
+		"recordDate": "2019-03-01T12:12:29.969Z",
+		"systolicValue": 120,
+		"diastolicValue": 90
+	},
+	"BloodGlucose": {
+		"recordDate": "2019-03-01T12:12:29.925Z",
+		"bloodGlucose": 60
+	}
+}
