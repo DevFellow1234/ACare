@@ -1,62 +1,98 @@
 {
-	"firstName": "Leslie",
-	"middleName": "string",
-	"lastName": "Corrrea",
-	"mrn": "string",
-	"primaryMobileNumber": "+918971896975",
-	"addModel": {
-		"addressLine1": "#101 House1",
-		"addressLine2": "UK street",
-		"city": "Bangalore",
-		"state": "Ka",
-		"country": "US",
-		"poBoxNumber": "570002",
-		"zipcode": "string"
+	"patientId": "2fdb143b-f236-a616-a859-5c8f445d5949",
+	"firstName": "Peter",
+	"middleName": "",
+	"lastName": "Parker",
+	"age": 49,
+	"userId": 22,
+	"mrn": "MT789",
+	"pcpName": "Jesse Hicks",
+	"pcpnUmber": "3456895092",
+	"primaryMobileNumber": "9964684420",
+	"address": {
+		"patientAddressId": null,
+		"addressTypeCode": null,
+		"addressLine1": null,
+		"addressLine2": null,
+		"city": "Irving",
+		"state": "Texas",
+		"country": "United States",
+		"zipcode": "75014",
+		"poBoxNumber": "TX.90032"
 	},
-	"PCPName": "Dr Kim",
-	"PCPPhone": "+918971896978",
-	"Conditions": [{
-		"Name": "Health",
-		"onsetDate": "2019-03-01T12:12:30.207Z",
-		"severity": "string"
-	},
-	{
-		"Name": "Health2",
-		"onsetDate": "2019-03-01T12:12:30.207Z",
-		"severity": "string"
+	"conditions": [{
+		"patientConditionId": "00000000-0000-0000-0000-000000000000",
+		"patientId": 0,
+		"icdType": null,
+		"icdCode": null,
+		"icdDescription": "Chest pain",
+		"status": "Active",
+		"onsetDate": "2019-02-28T00:00:00",
+		"endDate": null,
+		"severity": "Severe",
+		"documentedBy": null,
+		"isEditable": false,
+		"note": null
 	}],
-	"Procedures": [{
-		"name": "Operation",
-		"description": "Operation",
-		"performedDate": "2019-03-01T12:12:30.899Z",
-		"performedBy": "Dr Kim"
+	"procedures": [{
+		"patientProcedureId": null,
+		"patientId": 0,
+		"name": "L1831",
+		"description": "KNEE ORTH POS LOCKING JOINT",
+		"performedDate": "2019-02-01T00:00:00",
+		"performedBy": "Dr. Thomas Rose",
+		"status": null,
+		"note": null,
+		"isEditable": false
+	}, {
+		"patientProcedureId": null,
+		"patientId": 0,
+		"name": "L2415",
+		"description": "KNEE JOINT CAM LOCK EACH JOI",
+		"performedDate": "2019-02-14T00:00:00",
+		"performedBy": "Thomas Rose",
+		"status": null,
+		"note": null,
+		"isEditable": false
+	}, {
+		"patientProcedureId": null,
+		"patientId": 0,
+		"name": "E2328",
+		"description": "HEAD/EXTREMITY CONTROL INTER",
+		"performedDate": "2019-03-04T00:00:00",
+		"performedBy": "MaryKay Leon",
+		"status": null,
+		"note": null,
+		"isEditable": false
+	}, {
+		"patientProcedureId": null,
+		"patientId": 0,
+		"name": "E2329",
+		"description": "HEAD CONTROL NONPROPORTIONAL",
+		"performedDate": "2019-03-04T00:00:00",
+		"performedBy": "Henry taylor",
+		"status": null,
+		"note": null,
+		"isEditable": false
 	}],
-	"Medication": [{
-		"medicationName": "Aspirin",
-		"dosageQuantity": "1g",
-		"medicationTime": "string",
-		"daySplitType": "Morning"
+	"medications": [],
+	"bloodPressure": {
+		"patientBloodPressureId": "00000000-0000-0000-0000-000000000000",
+		"patientId": 0,
+		"recordDate": "2019-03-08T13:01:48.513",
+		"source": null,
+		"position": null,
+		"systolicValue": 170.0,
+		"diastolicValue": 95.0,
+		"isEditable": false
 	},
-	{
-		"medicationName": "Aspirin2",
-		"dosageQuantity": "2g",
-		"medicationTime": "string",
-		"daySplitType": "noon"
-	},
-	{
-		"medicationName": "Aspirin3",
-		"dosageQuantity": "3g",
-		"medicationTime": "string",
-		"daySplitType": "evening"
-	}],
-
-	"BloodPressure": {
-		"recordDate": "2019-03-01T12:12:29.969Z",
-		"systolicValue": 120,
-		"diastolicValue": 90
-	},
-	"BloodGlucose": {
-		"recordDate": "2019-03-01T12:12:29.925Z",
-		"bloodGlucose": 60
+	"bloodGlucose": {
+		"patientBloodGlucoseId": "00000000-0000-0000-0000-000000000000",
+		"patientId": 0,
+		"recordDate": "2019-03-08T13:04:59.693",
+		"bloodGlucose": 250.0,
+		"source": null,
+		"bloodGlucoseStatus": "Random",
+		"isEditable": false
 	}
 }
