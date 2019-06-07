@@ -96,7 +96,7 @@
 		"patientBloodGlucoseId": "00000000-0000-0000-0000-000000000000",
 		"patientId": 0,
 		"recordDate": "2019-05-21T15:49:34.96",
-		"bloodGlucose": 70,
+		"bloodGlucose": 120,
 		"source": null,
 		"bloodGlucoseStatus": "Pre-meal",
 		"isEditable": false
