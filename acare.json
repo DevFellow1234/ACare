@@ -25,7 +25,7 @@
 		"patientId": 0,
 		"icdType": null,
 		"icdCode": null,
-		"icdDescription": "Hypertensive heart disease without heart failure",
+		"icdDescription": "Hypertensive heart disease heart failure",
 		"status": "Active",
 		"onsetDate": "2019-03-01T00:00:00",
 		"endDate": null,
@@ -96,7 +96,7 @@
 		"patientBloodGlucoseId": "00000000-0000-0000-0000-000000000000",
 		"patientId": 0,
 		"recordDate": "2019-05-21T15:49:34.96",
-		"bloodGlucose": 70.0,
+		"bloodGlucose": 70,
 		"source": null,
 		"bloodGlucoseStatus": "Pre-meal",
 		"isEditable": false
