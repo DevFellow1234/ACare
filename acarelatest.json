@@ -1,0 +1,121 @@
+{
+	"patientId": "2fdb143b-f236-a616-a859-5c8f445d5949",
+	"firstName": "Peter",
+	"middleName": "",
+	"lastName": "Parker",
+	"age": 49,
+	"userId": 22,
+	"mrn": "MT789",
+	"pcpName": "Shane Watson",
+	"pcpnUmber": "3456564756",
+	"primaryMobileNumber": "9964684420",
+	"address": {
+		"patientAddressId": null,
+		"addressTypeCode": null,
+		"addressLine1": null,
+		"addressLine2": null,
+		"city": "Irving",
+		"state": "Texas",
+		"country": "United States",
+		"zipcode": "75014",
+		"poBoxNumber": "TX.90032"
+	},
+	"conditions": [{
+		"patientConditionId": "00000000-0000-0000-0000-000000000000",
+		"patientId": 0,
+		"icdType": null,
+		"icdCode": null,
+		"icdDescription": "Hypertensive heart disease heart failure",
+		"status": "Active",
+		"onsetDate": "2019-03-01T00:00:00",
+		"endDate": null,
+		"severity": "Moderate",
+		"documentedBy": null,
+		"isEditable": false,
+		"note": null
+	}, {
+		"patientConditionId": "00000000-0000-0000-0000-000000000000",
+		"patientId": 0,
+		"icdType": null,
+		"icdCode": null,
+		"icdDescription": "Displacement of artificial heart, sequela",
+		"status": "Active",
+		"onsetDate": "2019-03-09T15:22:58.336",
+		"endDate": null,
+		"severity": "Severe",
+		"documentedBy": null,
+		"isEditable": false,
+		"note": null
+	}, {
+		"patientConditionId": "00000000-0000-0000-0000-000000000000",
+		"patientId": 0,
+		"icdType": null,
+		"icdCode": null,
+		"icdDescription": "Chest pain",
+		"status": "Active",
+		"onsetDate": "2019-02-28T00:00:00",
+		"endDate": null,
+		"severity": "Severe",
+		"documentedBy": null,
+		"isEditable": false,
+		"note": null
+	}],
+	"procedures": [{
+		"patientProcedureId": null,
+		"patientId": 0,
+		"name": "E2327",
+		"description": "HEAD CONTROL INTERFACE MECH",
+		"performedDate": "2019-03-08T20:30:57.813",
+		"performedBy": "Dr. Henry taylor",
+		"status": null,
+		"note": null,
+		"isEditable": false
+	}, {
+		"patientProcedureId": null,
+		"patientId": 0,
+		"name": "E0610",
+		"description": "PACEMAKER MONITR AUDIBLE/VIS",
+		"performedDate": "2019-03-12T20:41:28.687",
+		"performedBy": "Dr. Thomas Rose",
+		"status": null,
+		"note": null,
+		"isEditable": false
+	}],
+	"medications": [],
+	"bloodPressure": {
+		"patientBloodPressureId": "00000000-0000-0000-0000-000000000000",
+		"patientId": 0,
+		"recordDate": "2019-05-21T15:43:45.643",
+		"source": null,
+		"position": null,
+		"systolicValue": 180.0,
+		"diastolicValue": 99.0,
+		"isEditable": false
+	},
+	"bloodGlucose": {
+		"patientBloodGlucoseId": "00000000-0000-0000-0000-000000000000",
+		"patientId": 0,
+		"recordDate": "2019-05-21T15:49:34.96",
+		"bloodGlucose": 120,
+		"source": null,
+		"bloodGlucoseStatus": "Pre-meal",
+		"isEditable": false
+	},
+	"pulse": {
+		"patientPulseId": "00000000-0000-0000-0000-000000000000",
+		"patientId": 0,
+		"recordDate": "2019-05-15T16:00:40",
+		"pulse": 66.00,
+		"position": null,
+		"source": null,
+		"isEditable": false
+	},
+	"spOxygen": {
+		"patientSPOxygenId": "00000000-0000-0000-0000-000000000000",
+		"patientId": 0,
+		"spOxygen": 89.00,
+		"recordDate": "2019-05-16T15:59:57",
+		"source": null,
+		"isEditable": false
+	}
+}
