@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.easypa",
+    "sha256_cert_fingerprints":
+    ["96:54:8B:14:D4:63:8C:91:D0:E4:D8:5C:53:35:0A:8E:12:6F:4F:96:84:9B:66:45:AB:46:33:BE:E6:47:CE:EB"]
+  }
+}]
